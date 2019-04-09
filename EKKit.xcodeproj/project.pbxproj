@@ -11,7 +11,6 @@
 		45FF3C6F225C9FAF007C4F5F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C68225C9FAF007C4F5F /* UIView.swift */; };
 		45FF3C70225C9FAF007C4F5F /* EKTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6A225C9FAF007C4F5F /* EKTransition.swift */; };
 		45FF3C71225C9FAF007C4F5F /* EKAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6B225C9FAF007C4F5F /* EKAnimation.swift */; };
-		45FF3C72225C9FAF007C4F5F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6C225C9FAF007C4F5F /* main.swift */; };
 		45FF3C73225C9FAF007C4F5F /* EKClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6E225C9FAF007C4F5F /* EKClipboard.swift */; };
 		45FF3C7B225CA115007C4F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C7A225CA115007C4F5F /* AppDelegate.swift */; };
 		45FF3C7D225CA115007C4F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C7C225CA115007C4F5F /* ViewController.swift */; };
@@ -28,7 +27,6 @@
 		45FF3C68225C9FAF007C4F5F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		45FF3C6A225C9FAF007C4F5F /* EKTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKTransition.swift; sourceTree = "<group>"; };
 		45FF3C6B225C9FAF007C4F5F /* EKAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKAnimation.swift; sourceTree = "<group>"; };
-		45FF3C6C225C9FAF007C4F5F /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		45FF3C6E225C9FAF007C4F5F /* EKClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKClipboard.swift; sourceTree = "<group>"; };
 		45FF3C78225CA115007C4F5F /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FF3C7A225CA115007C4F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			children = (
 				45FF3C67225C9FAF007C4F5F /* Extension */,
 				45FF3C69225C9FAF007C4F5F /* Animation */,
-				45FF3C6C225C9FAF007C4F5F /* main.swift */,
 				45FF3C6D225C9FAF007C4F5F /* Clipboard */,
 			);
 			path = EKKit;
@@ -251,7 +248,6 @@
 				45FF3C70225C9FAF007C4F5F /* EKTransition.swift in Sources */,
 				45FF3C73225C9FAF007C4F5F /* EKClipboard.swift in Sources */,
 				45FF3C71225C9FAF007C4F5F /* EKAnimation.swift in Sources */,
-				45FF3C72225C9FAF007C4F5F /* main.swift in Sources */,
 				45FF3C6F225C9FAF007C4F5F /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,7 +451,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
