@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EKKit.xcodeproj">
+      location = "self:/Users/ek/Documents/My Frameworks/EKKit/EKKit.xcodeproj">
    </FileRef>
 </Workspace>
