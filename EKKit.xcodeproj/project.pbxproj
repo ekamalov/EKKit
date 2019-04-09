@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		45FF3C60225C8F18007C4F5F /* EKKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FF3C5E225C8F18007C4F5F /* EKKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FF3C6F225C9FAF007C4F5F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C68225C9FAF007C4F5F /* UIView.swift */; };
+		45FF3C70225C9FAF007C4F5F /* EKTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6A225C9FAF007C4F5F /* EKTransition.swift */; };
+		45FF3C71225C9FAF007C4F5F /* EKAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6B225C9FAF007C4F5F /* EKAnimation.swift */; };
+		45FF3C72225C9FAF007C4F5F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6C225C9FAF007C4F5F /* main.swift */; };
+		45FF3C73225C9FAF007C4F5F /* EKClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF3C6E225C9FAF007C4F5F /* EKClipboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45FF3C5B225C8F18007C4F5F /* EKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FF3C5E225C8F18007C4F5F /* EKKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKKit.h; sourceTree = "<group>"; };
 		45FF3C5F225C8F18007C4F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FF3C68225C9FAF007C4F5F /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		45FF3C6A225C9FAF007C4F5F /* EKTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKTransition.swift; sourceTree = "<group>"; };
+		45FF3C6B225C9FAF007C4F5F /* EKAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKAnimation.swift; sourceTree = "<group>"; };
+		45FF3C6C225C9FAF007C4F5F /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		45FF3C6E225C9FAF007C4F5F /* EKClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EKClipboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +56,47 @@
 		45FF3C5D225C8F18007C4F5F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				45FF3C66225C9FAF007C4F5F /* EKKit */,
 				45FF3C5E225C8F18007C4F5F /* EKKit.h */,
 				45FF3C5F225C8F18007C4F5F /* Info.plist */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		45FF3C66225C9FAF007C4F5F /* EKKit */ = {
+			isa = PBXGroup;
+			children = (
+				45FF3C67225C9FAF007C4F5F /* Extension */,
+				45FF3C69225C9FAF007C4F5F /* Animation */,
+				45FF3C6C225C9FAF007C4F5F /* main.swift */,
+				45FF3C6D225C9FAF007C4F5F /* Clipboard */,
+			);
+			path = EKKit;
+			sourceTree = "<group>";
+		};
+		45FF3C67225C9FAF007C4F5F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				45FF3C68225C9FAF007C4F5F /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		45FF3C69225C9FAF007C4F5F /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				45FF3C6A225C9FAF007C4F5F /* EKTransition.swift */,
+				45FF3C6B225C9FAF007C4F5F /* EKAnimation.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		45FF3C6D225C9FAF007C4F5F /* Clipboard */ = {
+			isa = PBXGroup;
+			children = (
+				45FF3C6E225C9FAF007C4F5F /* EKClipboard.swift */,
+			);
+			path = Clipboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FF3C70225C9FAF007C4F5F /* EKTransition.swift in Sources */,
+				45FF3C73225C9FAF007C4F5F /* EKClipboard.swift in Sources */,
+				45FF3C71225C9FAF007C4F5F /* EKAnimation.swift in Sources */,
+				45FF3C72225C9FAF007C4F5F /* main.swift in Sources */,
+				45FF3C6F225C9FAF007C4F5F /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
