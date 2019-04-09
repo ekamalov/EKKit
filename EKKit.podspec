@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name          = "EKKit"
-  s.version       = "1.0.2"
+  s.version       = "1.0.3"
   s.summary       = "This is an amazing EKKit"
   s.homepage      = "https://github.com/erikkamalov/EKKit.git"
   s.source        = { :git => "https://github.com/erikkamalov/EKKit.git", :tag => s.version }

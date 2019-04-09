@@ -18,6 +18,7 @@
 		45FF3C80225CA115007C4F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FF3C7E225CA115007C4F5F /* Main.storyboard */; };
 		45FF3C82225CA117007C4F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FF3C81225CA117007C4F5F /* Assets.xcassets */; };
 		45FF3C85225CA117007C4F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FF3C83225CA117007C4F5F /* LaunchScreen.storyboard */; };
+		45FF3C97225CAEA4007C4F5F /* EKKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 45FF3C96225CAEA4007C4F5F /* EKKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		45FF3C81225CA117007C4F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45FF3C84225CA117007C4F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45FF3C86225CA117007C4F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FF3C96225CAEA4007C4F5F /* EKKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EKKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		45FF3C51225C8F18007C4F5F = {
 			isa = PBXGroup;
 			children = (
+				45FF3C96225CAEA4007C4F5F /* EKKit.podspec */,
 				45FF3C5D225C8F18007C4F5F /* Source */,
 				45FF3C79225CA115007C4F5F /* Example */,
 				45FF3C5C225C8F18007C4F5F /* Products */,
@@ -224,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FF3C97225CAEA4007C4F5F /* EKKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
